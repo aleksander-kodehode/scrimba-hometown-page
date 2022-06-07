@@ -1,0 +1,154 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+body {
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+div.hero-wrapper {
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    color: white;
+    text-shadow: 0 0 2px black;
+    background: url(img/src/hgsd_fjord.jpg) no-repeat center;
+}
+div.hero-wrapper h1 {
+    margin: 0 auto;
+    /* background: rgb(168, 218, 220, 0.5);  */
+    /* background: rgb(0, 0, 0, 0.3); */
+    font-family: 'Happy Monkey', cursive;
+    color: rgb(237, 241, 241);
+    text-shadow: 0 0 5px #1D3557;
+    font-size: 82px;
+}
+#activity-wrapper{
+    padding: 20px;
+}
+#activity-wrapper h2 {
+    margin: 0 auto 20px;
+    color: #1D3557;
+    font-size: 36px;
+    margin: 0 0 35px 0;
+}
+.flex-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.activity-elements {
+    width: 300px;
+    margin: 5px 5px 5px 5px;
+}
+.activity-elements h3 {
+    font-size: 24px;
+    color: #1D3557;
+}
+.activity-img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 3px solid #404E7C;
+    border-radius: 50%;
+
+}
+.activity-img:hover {
+}
+
+/* VIKING SECTION */ 
+.viking-wrapper {
+
+}
+#viking-flex-wrapper {
+
+}
+#hero-img {
+height: 350px;
+background: url(img/src/haraldstotte-1.jpeg) no-repeat center; 
+text-align: center;
+line-height: 350px;
+}
+#hero-img h2 {
+    font-family: 'Happy Monkey', cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 2px #404E7C;
+}
+.viking-elements {
+    padding: 25px 20px;
+    width: 400px;
+}
+.viking-elements h3 {
+    color: #1D3557;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.viking-elements img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid #404E7C;
+}
+.viking-elements p {
+}
+.viking-elements button {
+    margin: 15px 0 0 0;
+    padding: 10px 20px;
+
+    background: #1D3557;
+    color: #F1FAEE;
+    border: 1px solid #1D3557;
+}
+.viking-elements button:hover {
+    background: #F1FAEE;
+    color: #1D3557;
+    border: 1px solid #1D3557;
+}
+
+
+
+#footer {
+    background-color: #1D3557;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px 0;
+}
+#footer ul {
+    display: flex;
+    list-style: none;
+    color: #F1FAEE;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+    margin: 0 auto;    
+}
+#footer ul li#footer-facebook{
+    background: url("img/facebook.png") no-repeat contain;
+}
+#footer ul #footer-instagram{}
+#footer ul #footer-gmaps{}
+#footer ul #footer-mail{}
+#footer ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+#footer ul li a:hover {
+    text-decoration: underline;
+}
